@@ -26,51 +26,56 @@ const projects = [
       {
         src: "/images/items.png",
         alt: "Aurelia Jewelry Collection Page",
-        span: "col-span-2 row-span-2",
+        span: "col-span-2 row-span-1",
       },
       {
         src: "/images/itemsview.png",
         alt: "Product Detail Modal - Pearl Cascade Earrings",
-        span: "col-span-2 row-span-2",
+        span: "col-span-1 row-span-1",
       },
       {
         src: "/images/cart.png",
         alt: "Shopping Cart Drawer",
+        span: "col-span-1 row-span-1",
+      },
+    ],
+    tags: ["Next.js", "Tailwind CSS", "Framer Motion", "E-Commerce"],
+    year: "2024",
+  },
+  {
+    id: "foodie",
+    title: "Foodie",
+    category: "E-Commerce",
+    description:
+      "A premium Foodies e-commerce landing page featuring an elegant, refined visual design, smooth modern animations, and an elevated gourmet shopping experience. Built with cutting-edge web technologies to reflect the sophistication and exclusivity of a high-end fine-food brand.",
+    link: "https://foodie-web-application.vercel.app/",
+    featured: true,
+    thumbnail: "/images/foodies/home.png",
+    images: [
+      {
+        src: "/images/foodies/home.png",
+        alt: "Foodies Hero - Gourmet Delights Delivered",
         span: "col-span-2 row-span-2",
+      },
+      {
+        src: "/images/foodies/items.png",
+        alt: "Foodies Products Page",
+        span: "col-span-2 row-span-1",
+      },
+      {
+        src: "/images/foodies/restaurants.png",
+        alt: "foodies restaurants page",
+        span: "col-span-1 row-span-1",
+      },
+      {
+        src: "/images/foodies/view.png",
+        alt: "foodies view page",
+        span: "col-span-1 row-span-1",
       },
     ],
     tags: ["Next.js", "Tailwind CSS", "Framer Motion", "E-Commerce"],
     year: "2025",
-  }, {
-    id: "portfolio",
-    title: "TN Portfolio",
-    category: "Portfolio",
-    description:
-      "A portfolio website featuring elegant design, smooth animations, and a premium shopping experience. Built with modern web technologies for a personal portfolio.",
-    link: "https://my-portfolio-9mu.pages.dev/",
-    featured: true,
-    thumbnail: "/images/hero.png",
-    images: [
-      {
-        src: "/images/hero.png",
-        alt: "Portfolio Hero Section",
-        span: "col-span-2 row-span-2",
-      },
-      {
-        src: "/images/skills.png",
-        alt: "Portfolio Skills",
-        span: "col-span-2 row-span-2",
-      },
-      {
-        src: "/images/exp.png",
-        alt: "Portfolio Experience",
-        span: "col-span-2 row-span-2",
-      },
-    ],
-    tags: ["Next.js", "Tailwind CSS", "Framer Motion", "Portfolio"],
-    year: "2025",
-  },
-
+  }
 ]
 
 // Project Card Component
@@ -289,6 +294,10 @@ export default function WorkPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 auto-rows-[400px]">
             {projects.map((project) => (
+              <ProjectCard key={project.id} project={project} onClick={() => openProject(project)} />
+            ))}
+
+             {projects.map((project) => (
               <ProjectCard key={project.id} project={project} onClick={() => openProject(project)} />
             ))}
 
