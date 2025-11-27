@@ -26,22 +26,51 @@ const projects = [
       {
         src: "/images/items.png",
         alt: "Aurelia Jewelry Collection Page",
-        span: "col-span-2 row-span-1",
+        span: "col-span-2 row-span-2",
       },
       {
         src: "/images/itemsview.png",
         alt: "Product Detail Modal - Pearl Cascade Earrings",
-        span: "col-span-1 row-span-1",
+        span: "col-span-2 row-span-2",
       },
       {
         src: "/images/cart.png",
         alt: "Shopping Cart Drawer",
-        span: "col-span-1 row-span-1",
+        span: "col-span-2 row-span-2",
       },
     ],
     tags: ["Next.js", "Tailwind CSS", "Framer Motion", "E-Commerce"],
     year: "2024",
+  }, {
+    id: "portfolio",
+    title: "TN Portfolio",
+    category: "Portfolio",
+    description:
+      "A portfolio website featuring elegant design, smooth animations, and a premium shopping experience. Built with modern web technologies for a personal portfolio.",
+    link: "https://my-portfolio-9mu.pages.dev/",
+    featured: true,
+    thumbnail: "/images/hero.png",
+    images: [
+      {
+        src: "/images/hero.png",
+        alt: "Portfolio Hero Section",
+        span: "col-span-2 row-span-2",
+      },
+      {
+        src: "/images/skills.png",
+        alt: "Portfolio Skills",
+        span: "col-span-2 row-span-2",
+      },
+      {
+        src: "/images/exp.png",
+        alt: "Portfolio Experience",
+        span: "col-span-2 row-span-2",
+      },
+    ],
+    tags: ["Next.js", "Tailwind CSS", "Framer Motion", "Portfolio"],
+    year: "2025",
   },
+
 ]
 
 // Project Card Component
