@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":["file:///D:/Studio/Studio/landing-page-design/app/booking/page.tsx"],"sourcesContent":["import { Cal } from \"@/components/cal\"\r\n\r\nexport default function BookingPage() {\r\n  return <Cal />\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBAAO,8OAAC,yHAAG;;;;;AACb"}}]
+}
