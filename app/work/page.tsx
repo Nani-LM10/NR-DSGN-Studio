@@ -40,7 +40,7 @@ const projects = [
       },
     ],
     tags: ["Next.js", "Tailwind CSS", "Framer Motion", "E-Commerce"],
-    year: "2024",
+    year: "2025",
   }, {
     id: "portfolio",
     title: "TN Portfolio",
