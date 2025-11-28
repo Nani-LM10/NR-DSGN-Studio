@@ -8,6 +8,40 @@ import { cn } from "@/lib/utils"
 import Link from "next/link"
 
 const projects = [
+    {
+    id: "foodie",
+    title: "Foodie",
+    category: "E-Commerce",
+    description:
+      "A premium Foodies e-commerce landing page featuring an elegant, refined visual design, smooth modern animations, and an elevated gourmet shopping experience. Built with cutting-edge web technologies to reflect the sophistication and exclusivity of a high-end fine-food brand.",
+    link: "https://foodie-web-application.vercel.app/",
+    featured: true,
+    thumbnail: "/images/home.png",
+    images: [
+      {
+        src: "/images/home.png",
+        alt: "Foodies Hero - Gourmet Delights Delivered",
+        span: "col-span-2 row-span-2",
+      },
+      {
+        src: "/images/fooditems.png",
+        alt: "Foodies Products Page",
+        span: "col-span-2 row-span-2",
+      },
+      {
+        src: "/images/restaurants.png",
+        alt: "foodies restaurants page",
+        span: "col-span-2 row-span-2",
+      },
+      {
+        src: "/images/view.png",
+        alt: "foodies view page",
+        span: "col-span-2 row-span-2",
+      },
+    ],
+    tags: ["React.js", "Tailwind CSS", "E-Commerce"],
+    year: "2024",
+  },
   {
     id: "aurelia-jewelry",
     title: "Aurelia Jewelry",
@@ -70,41 +104,6 @@ const projects = [
     tags: ["Next.js", "Tailwind CSS", "Framer Motion", "Portfolio"],
     year: "2025",
   },
-  {
-    id: "foodie",
-    title: "Foodie",
-    category: "E-Commerce",
-    description:
-      "A premium Foodies e-commerce landing page featuring an elegant, refined visual design, smooth modern animations, and an elevated gourmet shopping experience. Built with cutting-edge web technologies to reflect the sophistication and exclusivity of a high-end fine-food brand.",
-    link: "https://foodie-web-application.vercel.app/",
-    featured: true,
-    thumbnail: "/images/home.png",
-    images: [
-      {
-        src: "/images/home.png",
-        alt: "Foodies Hero - Gourmet Delights Delivered",
-        span: "col-span-2 row-span-2",
-      },
-      {
-        src: "/images/fooditems.png",
-        alt: "Foodies Products Page",
-        span: "col-span-2 row-span-2",
-      },
-      {
-        src: "/images/restaurants.png",
-        alt: "foodies restaurants page",
-        span: "col-span-2 row-span-2",
-      },
-      {
-        src: "/images/view.png",
-        alt: "foodies view page",
-        span: "col-span-2 row-span-2",
-      },
-    ],
-    tags: ["React.js", "Tailwind CSS", "E-Commerce"],
-    year: "2024",
-  },
-
 ]
 
 // Project Card Component
