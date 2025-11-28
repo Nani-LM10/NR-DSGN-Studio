@@ -78,31 +78,31 @@ const projects = [
       "A premium Foodies e-commerce landing page featuring an elegant, refined visual design, smooth modern animations, and an elevated gourmet shopping experience. Built with cutting-edge web technologies to reflect the sophistication and exclusivity of a high-end fine-food brand.",
     link: "https://foodie-web-application.vercel.app/",
     featured: true,
-    thumbnail: "/images/foodies/home.png",
+    thumbnail: "/images/home.png",
     images: [
       {
-        src: "/images/foodies/home.png",
+        src: "/images/home.png",
         alt: "Foodies Hero - Gourmet Delights Delivered",
         span: "col-span-2 row-span-2",
       },
       {
-        src: "/images/foodies/items.png",
+        src: "/images/fooditems.png",
         alt: "Foodies Products Page",
-        span: "col-span-2 row-span-1",
+        span: "col-span-2 row-span-2",
       },
       {
-        src: "/images/foodies/restaurants.png",
+        src: "/images/restaurants.png",
         alt: "foodies restaurants page",
-        span: "col-span-1 row-span-1",
+        span: "col-span-2 row-span-2",
       },
       {
-        src: "/images/foodies/view.png",
+        src: "/images/view.png",
         alt: "foodies view page",
-        span: "col-span-1 row-span-1",
+        span: "col-span-2 row-span-2",
       },
     ],
-    tags: ["Next.js", "Tailwind CSS", "Framer Motion", "E-Commerce"],
-    year: "2025",
+    tags: ["React.js", "Tailwind CSS", "E-Commerce"],
+    year: "2024",
   },
 
 ]
